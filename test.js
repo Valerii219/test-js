@@ -54,20 +54,83 @@
 
 
 
-function calculateTotalPrice(productName) {
-  // Change code below this line
-  const products = [
-    { name: "Radar", price: 1300, quantity: 4 },
-    { name: "Scanner", price: 2700, quantity: 3 },
-    { name: "Droid", price: 400, quantity: 7 },
-    { name: "Grip", price: 1200, quantity: 9 },
-  ];
+// function calculateTotalPrice(productName) {
+//   // Change code below this line
+//   const products = [
+//     { name: "Radar", price: 1300, quantity: 4 },
+//     { name: "Scanner", price: 2700, quantity: 3 },
+//     { name: "Droid", price: 400, quantity: 7 },
+//     { name: "Grip", price: 1200, quantity: 9 },
+//   ];
   
 
 
   
 
 
-  // Change code above this line
-}
+//   // Change code above this line
+// }
 
+// const fnA = function(message, callback) {
+//   console.log(message);
+
+// console.log(callback);}
+
+// const  fnB = function ( pizza) {
+
+//     console.log(dsffdsf)
+// };
+
+//    fnA("ewgsdgdsg", fnB);
+//    const students = [
+//     { name: "Манго", score: 83 },
+//     { name: "Полі", score: 59 },
+//     { name: "Аякс", score: 37 },
+//     { name: "Ківі", score: 94 },
+//     { name: "Х'юстон", score: 64 },
+//   ];
+  
+//   const names = students.map(student => student.score);
+//   console.log(names); // ['Манго', 'Полі', 'Аякс', 'Ківі', 'Х'юстон']
+
+//   const scores = [27, 2, 41, 4, 7, 3, 75];
+//   const copy = [...scores].sort();
+
+// console.log(copy) //(7) [2, 27, 3, 4, 41, 7, 75]
+
+// const scores = [61, 19, 74, 35, 92, 56];
+// scores.sort();
+// console.log(scores) //(6) [19, 35, 56, 61, 74, 92]
+const players = [
+  { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+  { name: "Poly", playtime: 469, gamesPlayed: 2 },
+  { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+  { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+];
+// Change code below this line
+
+const totalAveragePlaytimePerGame = players.reduce((total, player) => { 
+  return total + (player.playtime / player.gamesPlayed)
+}, 0);
+
+const one = 
+
+console.log(totalAveragePlaytimePerGame);
+
+
+// const players = {
+//   mango: 1270,
+//   poly: 468,
+//   ajax: 710,
+//   kiwi: 244
+// };
+// const playtimes = Object.values(players); // [1270, 468, 710, 244]
+// // Change code below this line
+
+// const totalPlayTime = playtimes.reduce((acc, number) => {
+//   return acc + number;
+// },  0);
+
+// // Change code above this line
+// const averagePlayTime = totalPlayTime / playtimes.length;
+// console.log(totalPlayTime);
