@@ -31,7 +31,7 @@
 // function calculateTotal(number) {
 //     // Change code below this line
 //    let total = 0;
-   
+
 //    for (let i = 1; i <= number; i +=1 ) { // Change this line
 //      console.log(number);
 //    }
@@ -101,21 +101,21 @@
 // const scores = [61, 19, 74, 35, 92, 56];
 // scores.sort();
 // console.log(scores) //(6) [19, 35, 56, 61, 74, 92]
-const players = [
-  { name: "Mango", playtime: 1270, gamesPlayed: 4 },
-  { name: "Poly", playtime: 469, gamesPlayed: 2 },
-  { name: "Ajax", playtime: 690, gamesPlayed: 3 },
-  { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
-];
-// Change code below this line
+// const players = [
+//   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//   { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//   { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+// ];
+// // Change code below this line
 
-const totalAveragePlaytimePerGame = players.reduce((total, player) => { 
-  return total + (player.playtime / player.gamesPlayed)
-}, 0);
+// const totalAveragePlaytimePerGame = players.reduce((total, player) => { 
+//   return total + (player.playtime / player.gamesPlayed)
+// }, 0);
 
-const one = 
+// const one = 
 
-console.log(totalAveragePlaytimePerGame);
+// console.log(totalAveragePlaytimePerGame);
 
 
 // const players = {
@@ -134,3 +134,73 @@ console.log(totalAveragePlaytimePerGame);
 // // Change code above this line
 // const averagePlayTime = totalPlayTime / playtimes.length;
 // console.log(totalPlayTime);
+const users = 
+ [ {
+    name: "Moore Hensley",
+    email: "moorehensley@indexia.com",
+    eyeColor: "blue",
+    friends: ["Sharron Pace"],
+    isActive: false,
+    balance: 2811,
+    gender: "male"
+  },
+  {
+    name: "Sharlene Bush",
+    email: "sharlenebush@tubesys.com",
+    eyeColor: "blue",
+    friends: ["Briana Decker", "Sharron Pace"],
+    isActive: true,
+    balance: 3821,
+    gender: "female"
+  },]
+  const sortByAscendingBalance =  [...users].flatMap(user => user.friends).sort((a,b) =>{
+  
+  if (a == b) { return 0}
+  })
+  
+
+// a.friends.localeCompare(b.friends) })
+  
+console.log(sortByAscendingBalance)
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   {
+//     title: "The Dreams in the Witch House",
+//     author: "Howard Lovecraft",
+//     rating: 8.67,
+//   },
+// ];
+// const MIN_BOOK_RATING = 8;
+// // Change code below this line
+
+// const names = [...books].filter(book => book.rating > MIN_BOOK_RATING).map(book => book.author ).sort((a,b) => a.author - b.author)
+// console.log(names)
+// const tweets = [
+//   { id: "000", likes: 5, tags: ["js", "nodejs"] },
+//   { id: "001", likes: 2, tags: ["html", "css"] },
+//   { id: "002", likes: 17, tags: ["html", "js", "nodejs"] },
+//   { id: "003", likes: 8, tags: ["css", "react"] },
+//   { id: "004", likes: 0, tags: ["js", "nodejs", "react"] },
+// ];
+
+// const getTags = tweets =>
+//   tweets.reduce((allTags, tweet) => {
+//     allTags.push(...tweet.tags);
+
+//     return allTags;
+//   }, []);
