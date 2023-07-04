@@ -14,7 +14,7 @@ margin: 0 auto;}
 .main_content{
  background-color: #FFFFFF;
 box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-padding: 105px 90px;}
+padding: 55px 90px;}
 /* about styles */
 
 .about{
@@ -163,9 +163,10 @@ margin-bottom: 10px;}
 
 /* sidebard class */
 .sidebard{
-background-color: #1E2939;
-padding-top: 40px;
-width: 370px;}
+    background-color: #1E2939;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 400px;}
 
 .photo{
 width: 370px;
