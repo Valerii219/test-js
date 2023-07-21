@@ -5,6 +5,9 @@ body {
     margin: 0;
 }
 
+ul{
+    margin: 0;
+}
 .resume {
     display: flex;
     flex-direction: column;
@@ -208,16 +211,14 @@ body {
 
 .photo{
     width: 370px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contacts, .tech_skills, .soft_skills{
     margin-left: 40px;
 }
 
-.contacts {
-    margin-top: 50px;
-}
+
 
 .soft_skills{
     margin-top: 45px;
@@ -241,10 +242,11 @@ body {
 
 .contact_link{
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     line-height: 24px;
     color: #565e6a;
+    text-decoration: none;
 }
 
 .tech_skills_list{
