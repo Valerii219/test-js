@@ -1,134 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Resume</title>
-</head>
-<body>
-<!--Main-->
-<div class="main">
-    <!---->
-    
-    <!--Main content-->
-    <div class="main_content">
-        <!--about user-->
-        <div class="about">
-                
-                <h1 class="about_name">Valerii Arlamovskyi</h1>
-                <h2 class="about_description">Junior Frontend Developer</h2>
-            </div>
-            <!--Projects-->
-            <div class="projects">
-                <h3 class="title">
-                    Projects</h3>
-                <ol class="projects_list">
-                    <li class="project_item"><span class="project"><a href="https://hellen.p.goit.global/
-                        " class="project_link">https://hellen.p.goit.global/</a>
-                    .........................
-                    <span class="project_bracket">[</span> HTML5, CSS3 <span class="project_bracket">]</span>
-                </span>
-                    </li>
-                    <li class="project_item"><span class="project"><a href="https://cryptohub.p.goit.global/" class="project_link" >https://cryptohub.p.goit.global/</a>
-                        ...............
-                        <span class="project_bracket">[</span> JavaScript <span class="project_bracket">]</span></span> 
-                    </li>
-                    <li class="project_item"><span class="project"><a href="https://kidslike.p.goit.global/" class="project_link" >https://kidslike.p.goit.global/</a>
-                        .....................
-                        <span class="project_bracket">[</span> React.js, Node.js <span class="project_bracket">]</span></span>
-                    </li>
-                </ol>
-            </div>
-            <!--Work-->
-            <div class="work">
-                <h3 class="title">Work Experience</h3>
-                <!--Company1-->
-                <div>
-                    <h4 class="work_position">Досвід роботи <span class="oranization">Freelance</span>  </h4>
-                    <p class="period">September 2019 - up to now   <span class="line">| </span>  Country</p>
-                    <ul class="work_list">
-                        <li class="work_list_item">Створення сайтів з нуля </li>
-                        <li class="work_list_item">Розробка констукції сайту</li>
-                        <li class="work_list_item">Переговори із замовником </li>
-                        <li class="work_list_item">Розробка дизайн макетів </li>
+  </head>
+  <body>
+    <button onclick="generatePDF()">Зберегти у PDF</button>
+    <!--Main-->
+    <div class="main">
+      <!---->
 
-                    </ul>                    
-                </div>
-                <!---Company2-->
-                <div>
-                    <h4 class="work_position">Веб агенство <span class="oranization"> Design Studio</span></h4>
-                    <p class="period">March 2015 - October 2018 <span class="line">| </span>Country Poland</p>
-                    <p class="rob">Обовязки</p>
-                    <ul class="work_list">
-                        <li class="work_list_item">Дизайн макетів </li>
-                        <li class="work_list_item">Логотипи, фірмовий стиль</li>
-                        <li class="work_list_item">Дизайн і ризидайн сайтів. </li>
-                    </ul>
-                </div>
-                <!--Company3_-->
-                
-            </div>
-            <!--Education-->
-            <div class="education">
-                <h3 class="title">Освіта</h3>
-                <div>
-                    <h4 class="education_position">ВТЕІ КНТЕУ</h4>
-                    <h5 class="education_pos">Економічна Кібернетика</h5>
-                    <p class="period">September 2009 - June 2014  <span class="line">| </span>   Country Ukraine</p>
-                </div>
-            </div>
+      <div class="main_content resume" >
+        <!-- about user -->
+        <div class="about">
+          <h1 class="about_name">Valerii Arlamovskyi</h1>
+          <h2 class="about_description">
+            I am 'Junior Frontend Developer'
+            <p>
+              Briefly speaking about myself: I am responsible, find solutions to assigned tasks in a
+              timely manner, and am also focused on details. I will also add that I am mobile,
+              adapted to any external environment, determined, a quick learner, always helping
+              others.
+            </p>
+          </h2>
+        </div>
+        <!-- Projects -->
+        <div class="projects">
+          <h3 class="title">PROJECT EXPERIENCE</h3>
+          <ol class="projects_list">
+            <!-- Project items here -->
+          </ol>
+        </div>
+        <!-- Work Experience -->
+        <div class="work">
+          <h3 class="title">Work Experience</h3>
+          <!--Company1-->
+          <div>
+            <h4 class="work_position">
+              Досвід роботи
+              <span class="oranization">
+                <p>
+                  беручи до уваги мій попередній досвід на посаді заступника керуючого магазином
+                </p>
+              </span>
+            </h4>
+            <p class="period">September 2015 - 2019 <span class="line">| </span> Country Ukraine</p>
+            <ul class="work_list">
+              <li class="work_list_item">Відповідальнсть за людей, товарні цінності</li>
+              <li class="work_list_item">
+                підняття товарообігу магазину на вищий рівень, повна організація робочого процесу,
+              </li>
+              <li class="work_list_item">Проведення успішної інветаризації</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="education">
+          <h3 class="title">Education</h3>
+          <div>
+            <h4 class="education_position">
+              Vinnytsia Trade and Economic Institute of Kyiv National Trade and Economic University
+            </h4>
+            <h5 class="education_pos">Economic Cybernetics</h5>
+            <p class="period">
+              September 2009 - June 2014 <span class="line">| </span> Country Ukraine
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Sidebard-->
+      <aside class="sidebard">
+        <img src="img/Valera.jpg" alt="user photo" class="photo" />
+        <!-- Contacts -->
+        <div class="contacts">
+          <h3 class="sidebard_title">Contact Me</h3>
+          <div>
+            <p>
+              <span class="contact_type">C:</span>
+              <a href="tel:+11111111111" class="contact_link">+48501041318</a>
+            </p>
+            <p>
+              <span class="contact_type">E:</span>
+              <a href="mailto:chornyiav@gmail.com" class="contact_link">valera.arl96@gmail.com</a>
+            </p>
+            <p>
+              <span class="contact_type">r:</span>
+              <a href="tel:+11111111111" class="contact_link">GitHub</a>
+            </p>
+            <p>
+              <span class="contact_type">e:</span>
+              <a href="tel:+11111111111" class="contact_link">te</a>
+            </p>
+          </div>
+        </div>
+        <!-- Tech skills -->
+        <div class="tech_skills">
+          <h3 class="sidebard_title">Tech skills</h3>
+          <ul class="tech_skills_list">
+            <li class="tech_skills_item"><span class="tech_skills_text">HTML5</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">CSS3</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">GIT</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">WebPack</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">JavaScript</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">React.js</span></li>
+            <li class="tech_skills_item"><span class="tech_skills_text">Node.js</span></li>
+          </ul>
+        </div>
+        <!-- Soft Skills -->
+        <div class="soft_skills">
+          <h3 class="sidebard_title">Soft skills</h3>
+          <ul class="soft_skills_list">
+            <li class="soft_skills_item"><span class="soft_skills_text">Scrum</span></li>
+            <li class="soft_skills_item"><span class="soft_skills_text">Agile</span></li>
+            <li class="soft_skills_item"><span class="soft_skills_text">GTD</span></li>
+            <li class="soft_skills_item"><span class="soft_skills_text">Teamwork</span></li>
+          </ul>
+        </div>
+      </aside>
+      
     </div>
-     <!--Sidebard-->
-        <aside class="sidebard">
-            <img src="img/Valera.jpg" alt="user photo" class="photo">
-            <!--Contacts-->
-            <div class="contacts">
-                <h3 class="sidebard_title">Contact Me</h3>
-                <div>
-                    <p>
-                        <span class="contact_type">C:</span>  <a href="tel:+11111111111" class="contact_link">+48501041318</a> 
-                    </p>
-                    <p>
-                        <span class="contact_type">E:</span>  <a href="mailto:chornyiav@gmail.com" class="contact_link">valera.arl96@gmail.com</a>
-                    </p>
-                    <p>
-                        <span class="contact_type">r:</span>  <a href="tel:+11111111111" class="contact_link">GitHub</a> 
-                    </p>
-                    <p>
-                        <span class="contact_type">e:</span>  <a href="tel:+11111111111" class="contact_link">te</a> 
-                    </p>
-                </div>
-            </div>
-            <!--tech skills-->
-            <div class="tech_skills">
-                <h3 class="sidebard_title">Tech skills</h3>
-                <ul class="tech_skills_list">
-                    <li class="tech_skills_item"><span class="tech_skills_text">HTML5</span>  </li>
-                    <li class="tech_skills_item"><span class="tech_skills_text">CSS3</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_text">GIT</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_text">WebPack</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_text">JavaScript</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_text">React.js</span></li>
-                    <li class="tech_skills_item"><span class="tech_skills_text">Node.js</span></li>
-                </ul>
-            </div>
-            <!--Soft Skills-->
-            <div class="soft_skills">
-                <h3 class="sidebard_title">Soft skills</h3>
-                <ul class="soft_skills_list">
-                    <li class="soft_skills_item"><span class="soft_skills_text">Scrum</span> </li>
-                    <li class="soft_skills_item"><span class="soft_skills_text">Agile</span></li>
-                    <li class="soft_skills_item"><span class="soft_skills_text">GTD</span></li>
-                    <li class="soft_skills_item"><span class="soft_skills_text">Teamwork</span></li>
-                </ul>
-            </div>
-        </aside>
     
-</div>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script>
+      function generatePDF() {
+          // Отримати HTML-елемент, який потрібно перетворити на PDF
+          const element = document.querySelector('.resume');
+  
+          // Налаштування параметрів
+          const opt = {
+              margin: 10,
+              filename: 'resume.pdf',
+              image: { type: 'jpeg', quality: 0.98 },
+              html2canvas: { scale: 2 },
+              jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+          };
+  
+          // Створити PDF
+          html2pdf().from(element).set(opt).save();
+      }
+  </script>
+  </body>
 </html>
